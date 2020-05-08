@@ -42,7 +42,7 @@ let shopDisplay = getShopDisplay(shop);
  * @return {String} display
  */
 function getShopDisplay(shop) {
-	let display = `<center><img src="https://play.pokemonshowdown.com/sprites/xyani/marshadow.gif" width="80" height="80"><psicon pokemon="Marshadow"><img src="https://i.imgur.com/mOvsRJL.png" width="200" height="100"><psicon pokemon="Magearna"><img src="https://play.pokemonshowdown.com/sprites/xyani/magearna.gif" width="80" height="80"></center><br /><div class="infobox-limited"><table style="background: #000080; border-color: #C0C0C0; border-radius: 8px" border="1" cellspacing="0" cellpadding="5" width="100%"><tbody><tr><th><font color=#FFDF00 face=courier>Item</font></th><th><font color=#FFDF00 face=courier>Description</font></th><th><font color=#FFDF00 face=courier>Price</font></th></tr>`;
+	let display = `<center><img src="https://play.pokemonshowdown.com/sprites/xyani/riolu.gif" width="80" height="80"><psicon pokemon="Riolu"><img src="https://i.imgur.com/6dyAsIl.png" width="200" height="100"><psicon pokemon="Rockruff"><img src="https://play.pokemonshowdown.com/sprites/xyani/rockruff.gif" width="80" height="80"></center><br /><div class="infobox-limited"><table style="background: #000080; border-color: #C0C0C0; border-radius: 8px" border="1" cellspacing="0" cellpadding="5" width="100%"><tbody><tr><th><font color=#FFDF00 face=courier>Item</font></th><th><font color=#FFDF00 face=courier>Description</font></th><th><font color=#FFDF00 face=courier>Price</font></th></tr>`;
 	let start = 0;
 	while (start < shop.length) {
 		display += `<tr>`;
